@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 19 15:17:54 2022
+# Process ID: 18512
+# Current directory: C:/Users/86182/Desktop/dual_ov5640_lcd_gray
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16536 C:\Users\86182\Desktop\dual_ov5640_lcd_gray\dual_ov5640_lcd.xpr
+# Log file: C:/Users/86182/Desktop/dual_ov5640_lcd_gray/vivado.log
+# Journal file: C:/Users/86182/Desktop/dual_ov5640_lcd_gray\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/86182/Desktop/dual_ov5640_lcd_gray/dual_ov5640_lcd.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/86182/Desktop/dual_ov5640_lcd_gray/ip_repo'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/86182/Desktop/dual_ov5640_lcd_gray/ip_repo/xilinx_com_hls_ov5640_rgb2gray_1_0'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.open_project: Time (s): cpu = 00:00:41 ; elapsed = 00:00:33 . Memory (MB): peak = 844.250 ; gain = 244.164
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 19 15:31:42 2022...
+v5640_lcd.sdk -hwspec C:/Users/86182/Desktop/dual_ov5640_lcd_gray/dual_ov5640_lcd.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/86182/Desktop/dual_ov5640_lcd_gray/dual_ov5640_lcd.sdk -hwspec C:/Users/86182/Desktop/dual_ov5640_lcd_gray/dual_ov5640_lcd.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 19 15:31:34 2022...

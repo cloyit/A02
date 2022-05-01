@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;dual_ov5640_lcd/src/uart/usrt.h&apos; to &apos;uart.h&apos;" description="Rename resource &apos;usrt.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/uart/usrt.h" name="uart.h" stamp="1646628715696" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Apr  3 11:15:38 2022
+# Process ID: 8912
+# Current directory: C:/Users/86182/Desktop/dual_ov5640_lcd_gray
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10292 C:\Users\86182\Desktop\dual_ov5640_lcd_gray\dual_ov5640_lcd.xpr
+# Log file: C:/Users/86182/Desktop/dual_ov5640_lcd_gray/vivado.log
+# Journal file: C:/Users/86182/Desktop/dual_ov5640_lcd_gray\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86182/Desktop/dual_ov5640_lcd_gray/dual_ov5640_lcd.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/86182/Desktop/dual_ov5640_lcd_gray/dual_ov5640_lcd.srcs/sources_1/bd/system/system.bd}

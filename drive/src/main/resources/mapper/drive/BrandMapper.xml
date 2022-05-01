@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.drive.mapper.BrandMapper">
+
+
+    <resultMap id="BaseResultMap" type="com.example.drive.entity.Brand">
+        <result column="brand_id" jdbcType="INTEGER" property="brandId"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="content" jdbcType="VARCHAR" property="content"/>
+    </resultMap>
+
+    <select id="selectAllBrand" resultMap="BaseResultMap">
+        SELECT * FROM brand;
+    </select>
+
+    <select id="getBrandLimit" resultMap="BaseResultMap">
+        SELECT * FROM brand LIMIT #{size} OFFSET #{begin};
+    </select>
+
+</mapper>
